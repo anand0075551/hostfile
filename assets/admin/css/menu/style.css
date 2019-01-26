@@ -1,0 +1,74 @@
+/*
+* Author : Ali Aboussebaba
+* Email : bewebdeveloper@gmail.com
+* Website : http://www.bewebdeveloper.com
+* Subject : Dynamic Drag and Drop with jQuery and PHP
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1000px;
+	height: auto;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	border-radius: 10px;
+	margin: auto;
+	text-align: left;
+}
+
+.main_title {
+	background: #cccccc;
+	color: #ffffff;
+	padding: 5;
+	font-size: 20px;
+	line-height: 20px;
+}
+.content {
+	padding: 10px;
+	min-height: 100px;
+	text-align: center;
+}
+
+/* Sortable ******************/
+#sortable { 
+	list-style: none; 
+	text-align: left; 
+}
+#sortable li { 
+	margin: 0 0 10px 0;
+	height: 40px; 
+	background: #dbd9d9;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	color: #333333;
+}
+#sortable li span {
+	background-color: #b4b3b3;
+	background-image: url('../images/drag.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 30px;
+	height: 40px; 
+	display: inline-block;
+	float: left;
+	cursor: move;
+}
+#sortable li img {
+	height: 40px;
+	border: 5px solid #cccccc;
+	display: inline-block;
+	float: left;
+}
+#sortable li div {
+	padding: 1px;
+}
+#sortable li h2 {    
+	font-size: 16px;
+    line-height: 1px;
+}
+
+
